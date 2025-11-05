@@ -28,7 +28,7 @@ from ib_insync import *
 
 ib = IB()
 try:
-    ib.connect('127.0.0.1', 7497, clientId=1)
+    ib.connect()#put your ibkr credentials, clientId=1)
     logging.info("Connected to IBKR TWS successfully.")
 except Exception as e:
     logging.error(f"Failed to connect to IBKR: {e}")
@@ -399,6 +399,7 @@ if __name__ == "__main__":
     finally:
         ib.disconnect()
         logging.info("Disconnected from IBKR.")
+
 
 
 
