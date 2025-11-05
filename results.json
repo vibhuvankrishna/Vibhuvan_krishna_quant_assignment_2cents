@@ -1,0 +1,14 @@
+{
+  "portfolio_pnl": {
+    "sandbox_pnl": -0.53,
+    "backtest_pnl": -0.57,
+    "pnl_match": "FAIL in one case"
+  },
+  "alphas": {
+    "momentum": { "trades": 1, "pnl": -2.50, "match": "PASS", "analysis": "" },
+    "mean_reversion": { "trades": 0, "pnl":0 , "match": "PASS", "analysis": "" },
+    "random_forest": { "trades": 1, "pnl": 0, "match": "PASS", "analysis": "" },
+    "lstm": { "trades": 1, "pnl": 1.47, "match": "FAIL", "analysis": "here the data is supposed to come from IBKR but failed as TWS API did provide data on BNBUSTD symbol as it is crypto. so my bot took data from binance and continued trading. but empty data of binance got recorded into sqllite data base, so because of missing data the backtester replay is not able to get correct pnl" },
+    "random_forest+lstm": { "trades": 1, "pnl": 0.50, "match": "PASS", "analysis": "" }
+  }
+}
