@@ -3,14 +3,7 @@
 # ---------------------------- CONFIG ----------------------------
 import alphas
 
-api_key1="mgMDvJNtetK1AukW4EOroL1Vq9dUIrkltYzBTATzXzCS9mX7a95nWIvvoMAYcug"
-api_secret1="sBZlBhLd5G0wEVDX3v47lZuAAAsreY9PJDvPEZ1G7f11uCXPjb2likvAJwcbdeGb"
 
-API_KEY= "3cEsbWDolk1DcvT1axJWEdERutG5okfriuvqp7JqxpDbHz3BKiliRWtsWUmo0bQy"
-
-API_SECRET= "6TjkuuYHIRlYrwvwZSfD5mM2mlvbNgEHbRmkPdL6rj0ffa3YC2uxAwVnDPaE163L"
-
-# API_KEY = api_key
 # API_SECRET = api_secret
 
 import time
@@ -406,5 +399,6 @@ if __name__ == "__main__":
     finally:
         ib.disconnect()
         logging.info("Disconnected from IBKR.")
+
 
 
