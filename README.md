@@ -1,4 +1,4 @@
-# Vibhuvan_krishna_quant_assignment_2cents
+# Vibhuvan_krishna_quant_hackathon_2cents
 
 A Multi-Asset, Multi-Timeframe Quantitative Portfolio System
 Please submit the Google Form once the assignment is completed.
